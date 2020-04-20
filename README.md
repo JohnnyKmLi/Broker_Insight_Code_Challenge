@@ -19,4 +19,9 @@ This project was developed using a local server XAMPP.
 
 # Adding Vuejs webpage and PHP api
 1. Navigate to the xampp directory and locate directory `htdocs`.
-2. Delete all the files that are currently in there and paste in files ``
+2. Delete all the files that are currently in there and paste in files `Database.php`, `Policy.php`, `PolicyController.php`, `index.html`, `app.js`, and `styles.css` that can be found in this repo.
+
+# Using the webiste
+1. Start up your broswer and enter the url `http://localhost`.
+2. This should take you to a simple webpage with the title "Policys" and a "Fetch Policys" button.
+3. Click on the button and you should get the policys in the database.
