@@ -11,6 +11,12 @@ This project was developed using a local server XAMPP.
 2. Execute `xampp-control.exe`.
 3. When window starts up you should see a list of modules Apache, MySQL, FileZilla, etc (we will only be using Apache and MySQL).
 4. Click the start actions for the module "Apache" and "MySQL".
-5. Use a browser on your computer (I'm using google chrome).
-6. In the browser type the url `http://localhost/phpmyadmin` (this will take you the phpmyadmin application on the xampp server, this will hangle the database).
-7. Import the customer and policy database that can be found this repo. If this does not work copy the sql script found in the repo and fire the sql script, this should create the tables and data for the database.
+
+# Adding database
+1. Use a browser on your computer (I'm using google chrome).
+2. In the browser type the url `http://localhost/phpmyadmin` (this will take you the phpmyadmin application on the xampp server, this will hangle the database).
+3. Import the customer and policy database that can be found this repo. If this does not work copy the sql script `Broker_Insights_Database_seed.sql` and fire the script using the phpmyadmin `SQL` feature, this should create the tables and data for the database.
+
+# Adding Vuejs webpage and PHP api
+1. Navigate to the xampp directory and locate directory `htdocs`.
+2. Delete all the files that are currently in there and paste in files ``
